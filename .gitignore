@@ -1,28 +1,43 @@
-# Angular specific
-/dist/
-/out-tsc/
-/tmp/
-/coverage/
-/e2e/test-output/
-/.angular/
-.angular/
-
-# Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
-
-# Environment files
-/.env
-
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
-
-# TypeScript cache
-*.tsbuildinfo
-
-# Logs
+# Node.js
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Vite
+vite.config.ts.timestamp*
+vite.config.ts.tsbuildinfo
+
+# Logs
+*.log
+logs
+*.log.*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript
+*.tsbuildinfo
+
+# Mac / Linux / Windows system files
+.DS_Store
+Thumbs.db
